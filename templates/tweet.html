@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweet2Video</title>
+
+    <style type="text/css">
+        body{
+            background-color: ghostwhite;
+        }
+:invalid {
+    border-color: #e88;
+    -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+    box-shadow:0 0 5px rgba(255, 0, 0, .8); }
+:required {
+    border-color: #88a;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    box-shadow: 0 0 5px rgba(0, 0, 255, .5); }
+
+input {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:1px solid #ccc;
+    font-size:20px;
+    width:300px;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    vertical-align: middle;
+
+}
+
+input[type=submit] { background:none; padding:10px; }
+input:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+        .formclass{
+
+position: absolute;
+width: 300px;
+height: 400px;
+            vertical-align: middle;
+text-align: center;
+top: 20%;
+left: 40%;
+
+}
+h1{
+            font-size:40px;
+			font-family: "Courier New", Courier, monospace;
+			font-weight: bold;
+			font-stretch: extra-expanded;
+			text-align: center;
+			color: black;
+		}
+        p{
+            font-size:20px;
+			font-weight: bold;
+			font-stretch: extra-expanded;
+			text-align: center;
+			color: black;
+		}
+       .btns{
+           background: #66afe9;
+       }
+</style>
+    <h1>Tweets to Video</h1>
+    <p>Please enter twitter account names.</p>
+</head>
+<body>
+<div class="formclass" >
+<form method="POST">
+
+  Account1:<input class = "text" type="text" id="x1" name="x1" ><br>
+  <br>
+  Account2:<input type="text" id="x2" name="x2" ><br>
+  <br>
+    Account3: <input type="text" id="x3" name="x3" ><br>
+  <br>
+  <input class ="btns" type="submit" value="Submit">
+
+</form>
+</div>
+</body>
+</html>

@@ -16,3 +16,4 @@ python app.py
 <p align="center">   
 <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-lqi25/blob/master/hw5image0.png"/> 
 </p>
+- AWS web is http://ec2-3-86-218-110.compute-1.amazonaws.com/
